@@ -7,40 +7,80 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background: #f4f4f4;
+            color: #333;
         }
         header {
-            background: #333;
+            background: rgba(0, 0, 0, 0.7);
             color: #fff;
             padding: 1em 0;
             text-align: center;
+            background-image: url('https://example.com/chaudiere.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #444;
+            background: #333;
         }
         nav a {
             color: #fff;
             padding: 1em;
             text-decoration: none;
+            font-size: 1.1em;
         }
         nav a:hover {
-            background: #555;
+            background: #444;
         }
         .container {
             padding: 2em;
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .services, .testimonials, .contact {
-            margin-bottom: 2em;
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 0.5em;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services ul li {
+            background: #e8491d;
+            color: #fff;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+        .testimonials p {
+            background: #eee;
+            padding: 1em;
+            border-left: 5px solid #e8491d;
+            margin: 0.5em 0;
+        }
+        .contact p {
+            margin: 0.5em 0;
         }
         footer {
             background: #333;
             color: #fff;
             text-align: center;
             padding: 1em 0;
+            margin-top: 2em;
         }
     </style>
 </head>
@@ -73,6 +113,7 @@
             <h2>Témoignages</h2>
             <p>"Elmaz et son équipe ont fait un travail incroyable en installant notre nouveau système de chauffage. Très professionnels et efficaces!" - Jean Dupont</p>
             <p>"Service rapide et fiable. Je recommande vivement Plomberie Chauffage Elmaz Gjoni." - Marie Durant</p>
+            <p>"Un travail fait dans les temps et très professionnel." - Bulent</p>
         </section>
         <section id="contact" class="contact">
             <h2>Contactez-nous</h2>
